@@ -17,6 +17,11 @@
     width: 200px;
     height: 200px;
     opacity: 0.6;
+    transition: opacity 0.9s;
+}
+
+.side:hover {
+    opacity: 1;
 }
 
 .first {
@@ -47,7 +52,6 @@
     background-color: #ffff00;
     transform: translateZ(-200px);
 }
-
 
 
 @keyframes rotate-cube {
